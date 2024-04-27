@@ -1,39 +1,66 @@
-/* calculator {
-    width: 500px;
-    margin: 20px auto;
+.container {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
 }
 
-.displayBox {
-    padding: 10px;
+h1 {
+    font-size: 29px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
-.displayBox input {
-    padding: 15px;
+.inpBox {
     width: 100%;
-    background-color: lightgrey;
-    font-size: 2.5em;
-    border: none;
-}
-
-.btnbox {
-    display: flex;
-    justify-content: space-around;
     padding: 10px;
-    flex-wrap: wrap;
-    width: 100%;
+    font-size: 27px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
 }
 
-.btnbox button {
-    background-color: black;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    width: 100px;
-    height: 100px;
-    font-size: 2em;
+.buttonBox {
+    width: 42px;
+    height: 50px;
+    font-size: 29px;
     margin: 5px;
-} */
+    border-radius: 37%;
+}
 
-.inpBox{
-    width: 178px;
+@media (min-width:600px) {
+    .buttonBox {
+        width: 73px;
+        height: 70px;
+        font-size: 36px;
+        margin: 5px;
+        border-radius: 37%;
+    }
+    
+}
+
+@media (max-width:500px) {
+    .buttonBox {
+        width: 73px;
+        height: 70px;
+        font-size: 36px;
+        margin: 5px;
+        border-radius: 37%;
+    }
+    .inpBox {
+        width: 210px;
+        padding: 10px;
+        font-size: 27px;
+        border: 1px solid #ced4da;
+        border-radius: 5px;
+    }
+}
+
+@media (min-width:400px) {
+    .buttonBox {
+        width: 73px;
+        height: 70px;
+        font-size: 36px;
+        margin: 5px;
+        border-radius: 37%;
+    }
 }
