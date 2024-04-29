@@ -15,3 +15,8 @@ function result() {
     displayVal.value = ans;
     console.log(ans);
 }
+
+function del() {
+    displayVal.value = displayVal.value.slice(0,-1);
+    console.log(displayVal.value);
+}
